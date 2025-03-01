@@ -1,0 +1,708 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/* MARK: - UNIVERSAL */
+body {
+	color: black;
+    font-family: 'Rubik', sans-serif;
+	text-align: center;
+	font-size: 14px;
+    margin: 0px;
+}
+
+/* MARK: - NAV BAR */
+
+/* Set minimum height for header */
+.nav {
+    min-height: 80px;
+    margin: auto;
+    margin-top: -20px;
+    max-width: 1280px;
+}
+
+header nav a:hover,
+header nav li.selected a {
+    color: lightgray;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a.selected {
+    text-decoration: underline;
+}
+
+.nav-wrapper {
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+}
+
+/* Show pointer on hover of menu */
+.nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 1.4rem 1.4rem;
+    right: 0;
+}
+
+/* Hide Checkbox */
+.nav__checkbox {
+    display: none;
+}
+
+/* Icon size for mobile view */
+.nav__toggle i {
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+/* Hide close icon */
+.nav__toggle .close {
+    display: none;
+}
+
+/* Hambnurger menu margin */
+.nav__toggle .menu {
+    margin-top: 0.2rem;
+}
+
+.nav__menu {
+    display: flex;
+    -webkit-flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1048px;
+}
+
+.nav__menu li {
+    list-style: none;
+    display: none;
+}
+
+.nav__menu li:first-child {
+    margin-right: auto;
+    display: block;
+}
+
+.nav__menu li:last-child {
+    padding-bottom: 20px;
+}
+
+/* On menu tap, show options */
+.nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+}
+
+/* On menu tap, show close icon */
+.nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+}
+
+/* On menu tap, hide menu icon */
+.nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+}
+
+/* Make banner sticky*/
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/* Main "Logo" */
+.left-title {
+    float: left;
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* Menu items */
+.right {
+    float: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+/* MARK: - Desktop/Large view */
+@media only screen and (min-width: 1000px) {
+    /* MARK: - Nav Bar */
+    .nav {
+        max-height: 80px;
+    }
+    
+    .nav__menu {
+        padding-inline-start: 0px;
+    }
+    
+    .nav .nav__toggle i {
+        display: none;
+    }
+    
+    .nav .nav__menu {
+        flex-direction: row;
+        -webkit-flex-direction: row;
+    }
+    
+    .nav .nav__menu li {
+        display: block;
+        padding-bottom: 20px;
+    }
+    
+    .right {
+        float: right;
+        text-align: right;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 37px;
+        padding-top: 25px;
+    }
+    
+    .nav__menu li:last-child {
+        padding-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+/* MARK: - ABOUT SECTION */
+    .bio .intro-image {
+        margin-left: 0;
+    }
+    
+    .bio .item-list.grid {
+        padding-inline-start: 0px;
+    }
+    
+    .bio .item-list.latest.grid.compact > li {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    
+    .bio .item-list > li:last-child {
+        margin-left: auto;
+    }
+}
+
+/* This is due to the margin on the left of the photo and
+   the logo disappearing when transitioning between 1100 and
+   1000 where it becomes a mobile friendlier site
+ */
+@media(max-width: 1100px) and (min-width: 1000px) {
+    /* Logo */
+    .nav__menu li:first-child {
+        margin-left: 26px;
+    }
+    
+    /* Picture */
+    .item-list {
+        margin-left: 26px;
+        margin-right: 20px;
+    }
+}
+
+.item-list.grid {
+    max-width: 1048px;
+}
+
+.intro-image {
+    width: 331px;
+    display: block;
+    margin: auto;
+}
+
+/* About Headline */
+h1 {
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Divider */
+hr {
+    border-style: solid;
+    color: #000;
+    margin-block: 0em;
+    border-width: 2px;
+}
+
+.bio {
+    color: black;
+    background-color: white;
+}
+
+.resume__button {
+    /*adjust the roundness*/
+    border-radius: 8px;
+    moz-border-radius: 8px;
+    webkit-border-radius: 8px;
+    /*adjust height and width*/
+    width: 190px;
+    height: 56px;
+    display: block;
+    margin: auto;
+    align-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    /*change border colour*/
+    border:4px #C7C7CC solid;
+    background-color: black;
+    color: white;
+}
+
+/* MARK: - SECTION-WIDE SETTINGS */
+.section__header {
+    margin: auto;
+    line-height: 80px; /* Centers text vertically */
+    background-color: #eee;
+}
+
+/* MARK: - PROJECTS SECTION */
+.projects__body {
+    max-width: 1048px;
+    display: flex;
+    grid-template-columns: auto auto; /* 2 autos = 2 columns */
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0px;
+}
+
+.projects__body > li {
+    display: block;
+    width: 474px;
+    height: 298px;
+    background-color: #AEAEB2;
+    color: white;
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
+
+.project-first-row {
+    margin-top: 79px;
+    margin-bottom: 79px;
+}
+
+.project-last-row {
+    padding-bottom: 79px;
+    margin-block-end: 0px; /* Override default 14px */
+}
+
+.projects__body > li:first-child {
+    margin-right: 30px;
+    margin-left: 0px;
+}
+
+.projects__body > li:last-child {
+    margin-left: 30px;
+    margin-right: 0px;
+}
+
+.projects__body .tileheader {
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.projects-image {
+    display: block;
+    margin: auto;
+    padding-bottom: 11px;
+}
+
+.showcase {
+    width: 390px;
+}
+
+.showcase-square {
+    width: 206px;
+    padding-top: 27px;
+}
+
+.showcase-rect {
+    width: 338px;
+    padding-top: 19px;
+}
+
+/* MARK: - SKILLS SECTION*/
+.skills__body {
+    max-width: 1048px;
+    display: flex;
+    grid-template-columns: auto auto auto; /* 3 autos = 3 columns */
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0px;
+}
+
+.skills__body > li {
+    display: block;
+    width: 250px;
+    height: 175px;
+    background-color: #AEAEB2;
+    color: white;
+    margin-right: 70px;
+    margin-left: 70px;
+    border-radius: 8px;
+    align-content: center;
+}
+
+.skills__body > li:first-child {
+    margin-left: 9px;
+}
+
+.skills__body > li:last-child {
+    margin-right: 9px;
+}
+
+.skills-row {
+    margin-top: 79px;
+    margin-block-end: 0px; /* Override default 14px */
+    padding-bottom: 79px;
+}
+
+.skills__image {
+    display: block;
+    margin: auto;
+    padding-bottom: 11px;
+}
+
+.skill-square {
+    width: 75px;
+}
+
+.skill-rect {
+    width: 120px;
+}
+
+/* MARK: - ABOUT SECTION */
+
+.about__body {
+    max-width: 1048px;
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px; /* Override Section Content */
+    font-size: 18px;
+}
+
+footer {
+	background-color: #eee;
+	height: 120px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.service-icon {
+    background-color: #fff;
+    height: 2em;
+    width: 2em;
+    border-radius: 50px;
+    border: 2px solid #D1CBC1;
+    padding-top: 0.5em;
+}
+
+h2 {
+	margin: 10px 0;
+    color: #000;
+    font-weight: bolder;
+}
+
+h3 {
+    color: #000
+    font-weight: bolder;
+    margin: auto;
+}
+
+a {
+	color: inherit;
+    text-decoration: none;
+}
+
+.description {
+	margin-bottom: 40px;
+}
+
+.section-list {
+	display: block;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #eee;
+	margin-bottom: 20px;
+}
+
+.item-list > li {
+	display: block;
+    align-content: center;
+}
+
+.hstack {
+    width: 33.33%;
+    height: 400px;
+    display: inline-block;
+    background: green;
+}
+
+.item-list.latest.grid.compact > li: first-child {
+	margin: 0px;
+}
+
+.item-list > li:last-child {
+	margin-bottom: 0;
+}
+
+.grid.compact {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+    display: flex;
+    margin: auto;
+}
+
+.browse-all {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.all-tags li {
+	font-size: 1.4em;
+	margin-right: 10px;
+	padding: 6px 10px;
+}
+
+footer {
+	color: #8a8a8a;
+}
+
+/* MARK: - DARK MODE */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222;
+	}
+
+	body,
+    header .site-name {
+		color: #000;
+	}
+    
+    h1, h2, h3, hr {
+        color: #DDD;
+    }
+    
+    .about__body {
+        color: #DDD;
+    }
+    
+    h3 {
+        font-weight: 600;
+    }
+
+	footer {
+		background-color: #222;
+	}
+    
+    .nav-wrapper {
+        background-color: #FBFBF9;
+        color: black;
+    }
+    
+    .section__header {
+        background-color: #C7C7CC;
+    }
+    
+    .section__header h1, h3 {
+        color: #000;
+        margin: 0px;
+    }
+    
+    /* Generic section background color */
+    .section__content {
+        background-color: #111;
+    }
+    
+    .bio {
+        background-color: #111;
+        color: #eee;
+    }
+	
+	header {
+		background-color: #000;
+	}
+    
+    .resume__button {
+        background-color: #FBFBF9;
+        color: black;
+    }
+    
+    .projects__body > li {
+        background-color: #D8D8D8;
+        color: black;
+    }
+    
+    .skills__body > li {
+        background-color: #D8D8D8;
+        color: black;
+    }
+}
+
+@media(max-width: 999px) {
+	.header {
+		height: 100px;
+	}
+    
+	.wrapper {
+		padding: 40px 20px;
+	}
+    
+    .nav__menu {
+        padding-right: 40px;
+    }
+    
+	.grid {
+		display: block;
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-inline-start: 0px;
+	}
+    
+    .item-list > li:last-child {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    .projects__body {
+        display: block;
+        margin-block-start: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .projects__body > li {
+        margin-bottom: 50px;
+        width: 325px;
+        align-content: center;
+    }
+    
+    .showcase {
+        width: 290px;
+    }
+    
+    .showcase-rect {
+        width: 280px;
+    }
+    
+    .project-first-row {
+        padding-top: 50px;
+    }
+
+    .project-last-row {
+        padding-bottom: 1px; /* Without this background comes through */
+    }
+
+    .projects__body > li:first-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects__body > li:last-child {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .skills__body {
+        display: block;
+    }
+    
+    .skills-row {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .skills__body > li {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+    
+    .skills__body > li:first-child {
+        margin-top: 50px;
+        margin-left: auto;
+    }
+
+    .skills__body > li:last-child {
+        margin-right: auto;
+    }
+    
+    .about__body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* MARK: - Syntax Highlighting */
+pre {
+	margin-bottom: 1.5em;
+	background-color: #1a1a1a;
+	padding: 16px 0;
+	border-radius: 16px;
+}
+
+pre code {
+    font-family: ui-monospace, SFMono-Regular, ui-monospace, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	display: block;
+	padding: 0 20px;
+	color: #a9bcbc;
+	line-height: 1.4em;
+	font-size: 0.95em;
+	overflow-x: auto;
+	white-space: pre;
+	-webkit-overflow-scrolling: touch;
+}
+
+pre code .keyword {
+	color: #e73289;
+}
+
+pre code .type {
+	color: #8281ca;
+}
+
+pre code .call {
+	color: #348fe5;
+}
+
+pre code .property {
+	color: #21ab9d;
+}
+
+pre code .number {
+	color: #db6f57;
+}
+
+pre code .string {
+	color: #fa641e;
+}
+
+pre code .comment {
+	color: #6b8a94;
+}
+
+pre code .dotAccess {
+	color: #92b300;
+}
+
+pre code .preprocessing {
+	color: #b68a00;
+}

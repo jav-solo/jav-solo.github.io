@@ -6,10 +6,10 @@
 
 /* MARK: - UNIVERSAL */
 body {
-	color: black;
+    color: black;
     font-family: 'Rubik', sans-serif;
-	text-align: center;
-	font-size: 14px;
+    text-align: center;
+    font-size: 14px;
     margin: 0px;
 }
 
@@ -395,10 +395,10 @@ hr {
 }
 
 footer {
-	background-color: #eee;
-	height: 120px;
-	padding-top: 10px;
-	padding-bottom: 20px;
+    background-color: #eee;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     font-size: 16px;
 }
 
@@ -412,7 +412,7 @@ footer {
 }
 
 h2 {
-	margin: 10px 0;
+    margin: 10px 0;
     color: #000;
     font-weight: bolder;
 }
@@ -424,24 +424,24 @@ h3 {
 }
 
 a {
-	color: inherit;
+    color: inherit;
     text-decoration: none;
 }
 
 .description {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .section-list {
-	display: block;
-	padding: 20px;
-	border-radius: 20px;
-	background-color: #eee;
-	margin-bottom: 20px;
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    margin-bottom: 20px;
 }
 
 .item-list > li {
-	display: block;
+    display: block;
     align-content: center;
 }
 
@@ -453,15 +453,15 @@ a {
 }
 
 .item-list.latest.grid.compact > li: first-child {
-	margin: 0px;
+    margin: 0px;
 }
 
 .item-list > li:last-child {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .grid.compact {
-	grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .grid {
@@ -470,30 +470,30 @@ a {
 }
 
 .browse-all {
-	display: block;
-	margin-bottom: 30px;
+    display: block;
+    margin-bottom: 30px;
 }
 
 .all-tags li {
-	font-size: 1.4em;
-	margin-right: 10px;
-	padding: 6px 10px;
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
 }
 
 footer {
-	color: #8a8a8a;
+    color: #8a8a8a;
 }
 
 /* MARK: - DARK MODE */
 @media (prefers-color-scheme: dark) {
-	body {
-		background-color: #222;
-	}
+    body {
+        background-color: #222;
+    }
 
-	body,
+    body,
     header .site-name {
-		color: #000;
-	}
+        color: #000;
+    }
     
     h1, h2, h3, hr {
         color: #DDD;
@@ -507,9 +507,9 @@ footer {
         font-weight: 600;
     }
 
-	footer {
-		background-color: #222;
-	}
+    footer {
+        background-color: #222;
+    }
     
     .nav-wrapper {
         background-color: #FBFBF9;
@@ -534,10 +534,10 @@ footer {
         background-color: #111;
         color: #eee;
     }
-	
-	header {
-		background-color: #000;
-	}
+    
+    header {
+        background-color: #000;
+    }
     
     .resume__button {
         background-color: #FBFBF9;
@@ -556,24 +556,24 @@ footer {
 }
 
 @media(max-width: 999px) {
-	.header {
-		height: 100px;
-	}
+    .header {
+        height: 100px;
+    }
     
-	.wrapper {
-		padding: 40px 20px;
-	}
+    .wrapper {
+        padding: 40px 20px;
+    }
     
     .nav__menu {
         padding-right: 40px;
     }
     
-	.grid {
-		display: block;
+    .grid {
+        display: block;
         padding-top: 80px;
         padding-bottom: 80px;
         padding-inline-start: 0px;
-	}
+    }
     
     .item-list > li:last-child {
         margin-left: 30px;
@@ -653,56 +653,56 @@ footer {
 
 /* MARK: - Syntax Highlighting */
 pre {
-	margin-bottom: 1.5em;
-	background-color: #1a1a1a;
-	padding: 16px 0;
-	border-radius: 16px;
+    margin-bottom: 1.5em;
+    background-color: #1a1a1a;
+    padding: 16px 0;
+    border-radius: 16px;
 }
 
 pre code {
     font-family: ui-monospace, SFMono-Regular, ui-monospace, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	display: block;
-	padding: 0 20px;
-	color: #a9bcbc;
-	line-height: 1.4em;
-	font-size: 0.95em;
-	overflow-x: auto;
-	white-space: pre;
-	-webkit-overflow-scrolling: touch;
+    display: block;
+    padding: 0 20px;
+    color: #a9bcbc;
+    line-height: 1.4em;
+    font-size: 0.95em;
+    overflow-x: auto;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
 }
 
 pre code .keyword {
-	color: #e73289;
+    color: #e73289;
 }
 
 pre code .type {
-	color: #8281ca;
+    color: #8281ca;
 }
 
 pre code .call {
-	color: #348fe5;
+    color: #348fe5;
 }
 
 pre code .property {
-	color: #21ab9d;
+    color: #21ab9d;
 }
 
 pre code .number {
-	color: #db6f57;
+    color: #db6f57;
 }
 
 pre code .string {
-	color: #fa641e;
+    color: #fa641e;
 }
 
 pre code .comment {
-	color: #6b8a94;
+    color: #6b8a94;
 }
 
 pre code .dotAccess {
-	color: #92b300;
+    color: #92b300;
 }
 
 pre code .preprocessing {
-	color: #b68a00;
+    color: #b68a00;
 }

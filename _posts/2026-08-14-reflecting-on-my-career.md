@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Choosing the Best Front-end Framework'
-tags: [JavaScript, Tips]
+title: 'Reflecting on my career'
+tags: [career, apple]
 featured_image_thumbnail:
-featured_image: assets/images/posts/2019/desk.jpg
+featured_image: assets/images/posts/2026/apple-park.jpeg
 featured: true
 hidden: true
 ---

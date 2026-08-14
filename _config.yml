@@ -1,12 +1,13 @@
 # Site setings
-name: 'Javier Solorzano'
+name: 'Jav Solo'
+full_name: 'Javier Solorzano'
 description: 'iOS Engineer & Designer'
 meta_description: 'Javier Solorzano, iOS Engineer and Designer'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hello! My name is Javier Solorzano. I'm an iOS Engineer and Designer based in Louisiana. Thank you for visiting my blog."
+  greetings: "Hello! My name is Javier Solorzano. I'm an iOS Engineer and Designer based in Louisiana."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://javsolo.dev/
@@ -15,7 +16,6 @@ ga_analytics:
 
 # Social links
 github: 'jav-solo'
-dribbble: 'jav-solo'
 email: contact@javsolo.dev
 resume_link: 'assets/files/resume.pdf'
 

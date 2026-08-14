@@ -1,8 +1,8 @@
 # Site setings
 name: 'Jav Solo'
 full_name: 'Javier Solorzano'
-description: 'iOS Developer & Designer'
-meta_description: 'Javier Solorzano, iOS Engineer and Designer'
+description: 'iOS Engineer & Designer'
+meta_description: 'Javier Solorzano, iOS Engineer and Designer in Louisiana.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
@@ -17,7 +17,7 @@ ga_analytics:
 # Social links
 github: 'jav-solo'
 email: contact@javsolo.dev
-resume_link: 'assets/files/resume.pdf'
+resume_link: 'assets/files/Resume.pdf'
 
 # Navigation
 navigation:

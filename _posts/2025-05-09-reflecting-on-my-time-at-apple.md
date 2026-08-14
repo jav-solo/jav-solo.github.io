@@ -16,7 +16,7 @@ Having worked at Apple retail for a short stint while in college, I knew that I 
 
 By the grace of God, I was placed in the ideal situation when I began my role. I had one of the best managers in the company who wanted to see me soar. Over my 3 years there, he gave me the opportunity to work on iOS, macOS, visionOS, and tvOS on various features and products. It was a dream come true to work with the design teams, other engineers, and everyone else who lived and breathed Apple products. After 1 year, my manager and I were already discussing promotions and I was promoted at my second annual review. I led quite a few projects and was on track for a great career at the company.
 
-**I even had my name appear in a keynote and a press release which was awesome!**
+*I even had my name appear in a keynote and a press release which was awesome!*
 ![Picture of iPad with Facetime Call](assets/images/posts/2026/name-in-keynote.jpg)
 [Apple](https://www.apple.com/newsroom/2023/10/apple-introduces-new-apple-pencil-bringing-more-value-and-choice-to-the-lineup/)
 

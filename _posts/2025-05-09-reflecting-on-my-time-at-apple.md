@@ -14,7 +14,7 @@ When I took this role, I wasn't sure if I would measure up to the standard. I ha
 
 Having worked at Apple retail for a short stint while in college, I knew that I was a good cultural fit at the company, but the corporate reputation was intimidating. The values of the company of tenacity, excellence, and the *best* user experience were clear to anyone who spoke with a current or former corporate employee. I was a pretty good college student, but this was the big leagues. The way I figured, I would at worst, get a pretty cool year in and be a resume booster.
 
-By the grace of God, I was placed in the ideal situation when I began my role. I had one of the best managers in the company who wanted to see me soar. Over my 3 years there, he gave me the opportunity to work on iOS, macOS, visionOS, and tvOS on various features and products. It was a dream come true to work with the design teams, other engineers, and everyone else who lived and breathed Apple products. After 1 year, my manager and I were already discussing promotions and I was promoted at my second annual review. I led quite a few projects and was on track for a great career at the company.
+I had one of the best managers in the company who mentored me every step of the way. Over my 3 years there, he gave me the opportunity to work on iOS, macOS, visionOS, and tvOS on various features and products. It was a dream come true to work with the design teams, other engineers, and everyone else who lived and breathed Apple products. After 1 year, my manager and I were already discussing promotions and I was promoted at my second annual review. I led quite a few projects and was on track for a great career at the company.
 
 *I even had my name appear in a keynote and a press release which was awesome!*
 ![Picture of iPad with Facetime Call](assets/images/posts/2026/name-in-keynote.jpg)
@@ -28,8 +28,8 @@ All corporate employees were given a printed copy of Make Something Wonderful fr
 
 > "One of the ways that I believe people express their appreciation to the rest of humanity is to make something wonderful and put it out there" <cite>Steve Jobs</cite>
 
-So, after 3 years in Cupertino, we decided it was time to move back to Louisiana.
+It's hard to encapsulate what an incredible blessing it was to be there but, after 3 years in Cupertino, we decided it was time to move our family back to Louisiana.
 
-I am starting this blog to communicate my thoughts and opinions about Apple platform development, Apple products, design, game development, and the tech industry at large. My hope is to contribute to a community of creative individuals who love building things as much as I do.
+I am starting this blog to share my thoughts and opinions about app development, product design, game development, and the tech industry at large. My hope is to contribute to a community of creative individuals who love building things as much as I do.
 
 With gratitude

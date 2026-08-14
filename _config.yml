@@ -23,6 +23,8 @@ resume_link: 'assets/files/resume.pdf'
 navigation:
   - text: Blog
     url: /
+  - text: Projects
+    url: /projects
   - text: About
     url: /about
   - text: Search

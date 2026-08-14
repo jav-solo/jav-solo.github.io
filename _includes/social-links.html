@@ -1,0 +1,32 @@
+<p class="social-links">
+    {% if site.twitter %}
+    <a href="https://twitter.com/{{ site.twitter }}" target="_blank">
+        {% include icons/twitter.html %}
+    </a>
+    {% endif %}
+    {% if site.github %}
+    <a href="https://github.com/{{ site.github }}" target="_blank">
+        {% include icons/github.html %}
+    </a>
+    {% endif %}
+    {% if site.dribbble %}
+    <a href="https://dribbble.com/{{ site.dribbble }}" target="_blank">
+        {% include icons/dribbble.html %}
+    </a>
+    {% endif %}
+    {% if site.medium %}
+    <a href="https://medium.com/{{ site.medium }}" target="_blank">
+        {% include icons/medium.html %}
+    </a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}" target="_blank">
+        {% include icons/envelope.html %}
+    </a>
+    {% endif %}
+    {% if site.resume_link %}
+    <a href="{{ site.resume_link }}" target="_blank">
+        {% include icons/file.html %}
+    </a>
+    {% endif %}
+</p>

@@ -11,7 +11,7 @@ author:
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://javsolo.dev/
-mailchimp_url: # Fill with mailchimp URL if you starts a newsletter
+mailchimp_url: # Fill with mailchimp URL if you start a newsletter
 
 # Social links
 github: 'jav-solo'

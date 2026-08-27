@@ -14,6 +14,8 @@ production_url: https://javsolo.dev/
 mailchimp_url: # Fill with mailchimp URL if you start a newsletter
 
 # Social links
+mastadon: 'javsolo'
+twitter: '_javsolo'
 github: 'jav-solo'
 email: contact@javsolo.dev
 resume_link: 'assets/files/Resume.pdf'

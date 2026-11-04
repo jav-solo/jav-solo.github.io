@@ -2,12 +2,12 @@
 name: 'Jav Solo'
 full_name: 'Javier Solorzano'
 description: 'Software Engineer'
-meta_description: 'Javier Solorzano, Software Engineer and Designer in Louisiana.'
+meta_description: 'Javier Solorzano, Software Engineer in Louisiana.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hello! My name is Javier Solorzano. I'm a software engineer and designer based in Louisiana. I build apps and games on Apple platforms."
+  greetings: "Hello! My name is Javier Solorzano and I build apps and games on Apple platforms."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://javsolo.dev/
@@ -15,7 +15,7 @@ mailchimp_url: # Fill with mailchimp URL if you start a newsletter
 
 # Social links
 mastadon: 'javsolo'
-twitter: '_javsolo'
+twitter: 'jav-solo'
 github: 'jav-solo'
 email: contact@javsolo.dev
 resume_link: 'assets/files/Resume.pdf'

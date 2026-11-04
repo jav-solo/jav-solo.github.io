@@ -2,7 +2,8 @@
 layout: post
 title: 'Reflecting on my time at Apple'
 featured_image_thumbnail:
-featured_image: assets/images/posts/5/apple-park.jpeg
+featured_image: assets/images/posts/2025/apple-park.jpeg
+featured_image_alt: "The giant rainbow at Apple Park"
 featured: false
 hidden: false
 ---

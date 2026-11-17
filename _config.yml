@@ -7,7 +7,7 @@ logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hello! My name is Javier Solorzano and I build apps and games on Apple platforms."
+  greetings: "Hi, I am Javier Solorzano! I build apps and games on Apple platforms."
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://javsolo.dev/

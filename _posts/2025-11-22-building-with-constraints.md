@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Apple advantage'
+title: 'The Advantage of Constraints'
 featured_image_thumbnail:
 featured_image: assets/images/posts/2025/silos.jpeg
 featured_image_alt: "Grain silos in a large industrial plant"
